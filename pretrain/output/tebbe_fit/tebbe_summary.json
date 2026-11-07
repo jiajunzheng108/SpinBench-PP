@@ -1,0 +1,44 @@
+{
+  "n_usable": 78,
+  "n_valid": 78,
+  "n_gt_outliers": 4,
+  "rmse_cm_median": 2.023360394358529,
+  "rmse_cm_p95": 9.126120504121612,
+  "ratio_median": 0.1212752031141413,
+  "ratio_p95": 0.2615220513330071,
+  "count_ratio_gt_1e-2": 78,
+  "count_ratio_lt_1e-3": 0,
+  "all_inliers": {
+    "n": 74,
+    "full_mae": 222.3597940966657,
+    "full_angle": 70.81408386016388,
+    "perp_mae": 105.72361543310751,
+    "perp_angle": 45.709865101569115
+  },
+  "groups": {
+    "good (ratio>1e-2)": {
+      "n": 74,
+      "full_mae": 222.3597940966657,
+      "full_angle": 70.81408386016388,
+      "perp_mae": 105.72361543310751,
+      "perp_angle": 45.709865101569115,
+      "rmse_cm": 5.462418557891308
+    },
+    "medium (1e-3~1e-2)": {
+      "n": 0,
+      "full_mae": NaN,
+      "full_angle": NaN,
+      "perp_mae": NaN,
+      "perp_angle": NaN,
+      "rmse_cm": NaN
+    },
+    "poor (<1e-3)": {
+      "n": 0,
+      "full_mae": NaN,
+      "full_angle": NaN,
+      "perp_mae": NaN,
+      "perp_angle": NaN,
+      "rmse_cm": NaN
+    }
+  }
+}

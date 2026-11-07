@@ -1,0 +1,314 @@
+{
+  "finetune_finetuned_model": {
+    "checkpoint": "D:\\Code\\Task\\SpinBench-PP\\pretrain\\output\\finetune\\finetuned_model.pt",
+    "n_usable": 78,
+    "base_all_rollout_rmse": 3.0506981536746025,
+    "cv": {
+      "base_rollout_mean": 3.0283095687627792,
+      "base_rollout_std": 1.7338872099994878,
+      "ft_rollout_mean": 2.9609379544854164,
+      "ft_rollout_std": 1.6246145705364303,
+      "base_perp_angle_mean": 48.77347869873047,
+      "base_perp_angle_std": 7.23317468992409,
+      "ft_perp_angle_mean": 51.28795318603515,
+      "ft_perp_angle_std": 7.612989300915766,
+      "base_perp_mae_mean": 96.06948852539062,
+      "ft_perp_mae_mean": 102.73979187011719,
+      "base_full_angle_mean": 59.50475158691406,
+      "ft_full_angle_mean": 62.18270568847656
+    },
+    "fold_results": [
+      {
+        "fold": 0,
+        "n_train": 46,
+        "n_val": 16,
+        "n_test": 16,
+        "best_epoch": 1,
+        "base_rollout_rmse": 6.436194479465485,
+        "ft_rollout_rmse": 6.183991581201553,
+        "base": {
+          "n": 16,
+          "full_mae": 146.18798828125,
+          "full_angle": 62.80467987060547,
+          "perp_mae": 131.96807861328125,
+          "perp_angle": 58.42955780029297,
+          "perp_angle_median": 44.00545883178711,
+          "full_norm_mae": 160.8050537109375
+        },
+        "finetuned": {
+          "n": 16,
+          "full_mae": 156.3374786376953,
+          "full_angle": 64.84355926513672,
+          "perp_mae": 142.36509704589844,
+          "perp_angle": 60.7615852355957,
+          "perp_angle_median": 39.14117431640625,
+          "full_norm_mae": 168.44293212890625
+        }
+      },
+      {
+        "fold": 1,
+        "n_train": 46,
+        "n_val": 16,
+        "n_test": 16,
+        "best_epoch": 1,
+        "base_rollout_rmse": 2.3561708629131317,
+        "ft_rollout_rmse": 2.057480439543724,
+        "base": {
+          "n": 15,
+          "full_mae": 105.99246978759766,
+          "full_angle": 50.6785774230957,
+          "perp_mae": 84.51548767089844,
+          "perp_angle": 43.45724868774414,
+          "perp_angle_median": 20.43240737915039,
+          "full_norm_mae": 101.99482727050781
+        },
+        "finetuned": {
+          "n": 15,
+          "full_mae": 118.46293640136719,
+          "full_angle": 51.625057220458984,
+          "perp_mae": 97.92894744873047,
+          "perp_angle": 42.6117057800293,
+          "perp_angle_median": 18.477306365966797,
+          "full_norm_mae": 129.8191375732422
+        }
+      },
+      {
+        "fold": 2,
+        "n_train": 47,
+        "n_val": 15,
+        "n_test": 16,
+        "best_epoch": 1,
+        "base_rollout_rmse": 2.0388588309288025,
+        "ft_rollout_rmse": 1.983342319726944,
+        "base": {
+          "n": 16,
+          "full_mae": 118.7805404663086,
+          "full_angle": 55.78147888183594,
+          "perp_mae": 91.03948211669922,
+          "perp_angle": 38.1907958984375,
+          "perp_angle_median": 21.343765258789062,
+          "full_norm_mae": 114.27806854248047
+        },
+        "finetuned": {
+          "n": 16,
+          "full_mae": 121.52945709228516,
+          "full_angle": 60.351314544677734,
+          "perp_mae": 91.47604370117188,
+          "perp_angle": 41.982357025146484,
+          "perp_angle_median": 17.116180419921875,
+          "full_norm_mae": 123.25186157226562
+        }
+      },
+      {
+        "fold": 3,
+        "n_train": 48,
+        "n_val": 15,
+        "n_test": 15,
+        "best_epoch": 2,
+        "base_rollout_rmse": 1.6742317005991936,
+        "ft_rollout_rmse": 2.028808929026127,
+        "base": {
+          "n": 13,
+          "full_mae": 134.217041015625,
+          "full_angle": 61.82077407836914,
+          "perp_mae": 107.21173858642578,
+          "perp_angle": 53.97001647949219,
+          "perp_angle_median": 33.553733825683594,
+          "full_norm_mae": 126.07369995117188
+        },
+        "finetuned": {
+          "n": 13,
+          "full_mae": 132.09225463867188,
+          "full_angle": 63.393287658691406,
+          "perp_mae": 101.53010559082031,
+          "perp_angle": 54.54905700683594,
+          "perp_angle_median": 40.81690216064453,
+          "full_norm_mae": 128.31698608398438
+        }
+      },
+      {
+        "fold": 4,
+        "n_train": 47,
+        "n_val": 16,
+        "n_test": 15,
+        "best_epoch": 2,
+        "base_rollout_rmse": 2.636091969907284,
+        "ft_rollout_rmse": 2.551066502928734,
+        "base": {
+          "n": 14,
+          "full_mae": 96.93372344970703,
+          "full_angle": 66.43824768066406,
+          "perp_mae": 65.61265563964844,
+          "perp_angle": 49.81977462768555,
+          "perp_angle_median": 23.64117431640625,
+          "full_norm_mae": 99.35060119628906
+        },
+        "finetuned": {
+          "n": 14,
+          "full_mae": 110.84357452392578,
+          "full_angle": 70.70030975341797,
+          "perp_mae": 80.39876556396484,
+          "perp_angle": 56.53506088256836,
+          "perp_angle_median": 29.14264678955078,
+          "full_norm_mae": 110.59757232666016
+        }
+      }
+    ]
+  },
+  "output_best_model": {
+    "checkpoint": "D:\\Code\\Task\\SpinBench-PP\\pretrain\\output\\best_model.pt",
+    "n_usable": 78,
+    "base_all_rollout_rmse": 3.7123367190361023,
+    "cv": {
+      "base_rollout_mean": 3.6742261052131653,
+      "base_rollout_std": 1.9570744892897238,
+      "ft_rollout_mean": 3.4676628187298775,
+      "ft_rollout_std": 1.6918493804320942,
+      "base_perp_angle_mean": 50.72472915649414,
+      "base_perp_angle_std": 8.08593304813815,
+      "ft_perp_angle_mean": 53.18866729736328,
+      "ft_perp_angle_std": 6.864137357123279,
+      "base_perp_mae_mean": 122.63354797363282,
+      "ft_perp_mae_mean": 108.6975830078125,
+      "base_full_angle_mean": 64.87297058105469,
+      "ft_full_angle_mean": 63.59815979003906
+    },
+    "fold_results": [
+      {
+        "fold": 0,
+        "n_train": 46,
+        "n_val": 16,
+        "n_test": 16,
+        "best_epoch": 2,
+        "base_rollout_rmse": 7.458716630935669,
+        "ft_rollout_rmse": 6.839769333600998,
+        "base": {
+          "n": 16,
+          "full_mae": 208.26947021484375,
+          "full_angle": 60.93170928955078,
+          "perp_mae": 176.793701171875,
+          "perp_angle": 64.07472229003906,
+          "perp_angle_median": 44.93239974975586,
+          "full_norm_mae": 273.6764221191406
+        },
+        "finetuned": {
+          "n": 16,
+          "full_mae": 187.83912658691406,
+          "full_angle": 60.805335998535156,
+          "perp_mae": 164.0183563232422,
+          "perp_angle": 62.971336364746094,
+          "perp_angle_median": 36.36900329589844,
+          "full_norm_mae": 217.98162841796875
+        }
+      },
+      {
+        "fold": 1,
+        "n_train": 46,
+        "n_val": 16,
+        "n_test": 16,
+        "best_epoch": 2,
+        "base_rollout_rmse": 3.4644562751054764,
+        "ft_rollout_rmse": 2.5746403262019157,
+        "base": {
+          "n": 15,
+          "full_mae": 187.45249938964844,
+          "full_angle": 66.81078338623047,
+          "perp_mae": 104.48607635498047,
+          "perp_angle": 43.20851516723633,
+          "perp_angle_median": 19.867143630981445,
+          "full_norm_mae": 207.1957244873047
+        },
+        "finetuned": {
+          "n": 15,
+          "full_mae": 153.48049926757812,
+          "full_angle": 58.929752349853516,
+          "perp_mae": 100.45439147949219,
+          "perp_angle": 42.320674896240234,
+          "perp_angle_median": 19.924015045166016,
+          "full_norm_mae": 167.70367431640625
+        }
+      },
+      {
+        "fold": 2,
+        "n_train": 47,
+        "n_val": 15,
+        "n_test": 16,
+        "best_epoch": 1,
+        "base_rollout_rmse": 3.072143904864788,
+        "ft_rollout_rmse": 2.885742112994194,
+        "base": {
+          "n": 16,
+          "full_mae": 189.6573028564453,
+          "full_angle": 65.42768096923828,
+          "perp_mae": 113.5562973022461,
+          "perp_angle": 41.85636901855469,
+          "perp_angle_median": 18.399456024169922,
+          "full_norm_mae": 203.7715606689453
+        },
+        "finetuned": {
+          "n": 16,
+          "full_mae": 172.29771423339844,
+          "full_angle": 68.15828704833984,
+          "perp_mae": 108.6144027709961,
+          "perp_angle": 49.926658630371094,
+          "perp_angle_median": 20.7220458984375,
+          "full_norm_mae": 213.27737426757812
+        }
+      },
+      {
+        "fold": 3,
+        "n_train": 48,
+        "n_val": 15,
+        "n_test": 15,
+        "best_epoch": 2,
+        "base_rollout_rmse": 2.2299667820334435,
+        "ft_rollout_rmse": 2.5687504559755325,
+        "base": {
+          "n": 13,
+          "full_mae": 206.5341339111328,
+          "full_angle": 66.88195037841797,
+          "perp_mae": 128.1949005126953,
+          "perp_angle": 54.356685638427734,
+          "perp_angle_median": 38.17595672607422,
+          "full_norm_mae": 241.73204040527344
+        },
+        "finetuned": {
+          "n": 13,
+          "full_mae": 145.1702423095703,
+          "full_angle": 67.5647964477539,
+          "perp_mae": 94.6573486328125,
+          "perp_angle": 56.27821731567383,
+          "perp_angle_median": 33.26753234863281,
+          "full_norm_mae": 166.28782653808594
+        }
+      },
+      {
+        "fold": 4,
+        "n_train": 47,
+        "n_val": 16,
+        "n_test": 15,
+        "best_epoch": 2,
+        "base_rollout_rmse": 2.1458469331264496,
+        "ft_rollout_rmse": 2.469411864876747,
+        "base": {
+          "n": 14,
+          "full_mae": 160.05418395996094,
+          "full_angle": 64.31272888183594,
+          "perp_mae": 90.13676452636719,
+          "perp_angle": 50.12735366821289,
+          "perp_angle_median": 28.750274658203125,
+          "full_norm_mae": 181.35446166992188
+        },
+        "finetuned": {
+          "n": 14,
+          "full_mae": 126.0876693725586,
+          "full_angle": 62.53262710571289,
+          "perp_mae": 75.74341583251953,
+          "perp_angle": 54.446449279785156,
+          "perp_angle_median": 24.60250473022461,
+          "full_norm_mae": 152.49325561523438
+        }
+      }
+    ]
+  }
+}

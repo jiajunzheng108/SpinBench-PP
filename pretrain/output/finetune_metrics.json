@@ -1,0 +1,79 @@
+{
+  "zero_shot": {
+    "val": {
+      "rollout_rmse_cm": 7.806814479827881,
+      "rollout_mae_cm": 5.636959171295166,
+      "phys_rmse": 8.526234245300293,
+      "pseudo_mae": 77.94177551269532,
+      "pseudo_angle_mean": 22.547557830810547,
+      "pseudo_angle_median": 19.95312957763672,
+      "pseudo_angle_p95": 41.61819305419922,
+      "spin_mag_median": 367.6436279296875,
+      "spin_mag_p95": 516.8481811523437
+    },
+    "test": {
+      "rollout_rmse_cm": 11.775471115112305,
+      "rollout_mae_cm": 7.3855125427246096,
+      "phys_rmse": 14.025746059417724,
+      "pseudo_mae": 126.89079284667969,
+      "pseudo_angle_mean": 32.47177276611328,
+      "pseudo_angle_median": 18.645884704589843,
+      "pseudo_angle_p95": 86.73132934570313,
+      "spin_mag_median": 308.8821228027344,
+      "spin_mag_p95": 562.3434692382813
+    }
+  },
+  "stage1": {
+    "best_epoch": 1,
+    "val": {
+      "rollout_rmse_cm": 10.157154273986816,
+      "rollout_mae_cm": 7.606875801086426,
+      "phys_rmse": 8.858474349975586,
+      "pseudo_mae": 120.92857513427734,
+      "pseudo_angle_mean": 29.578392028808594,
+      "pseudo_angle_median": 27.837818908691407,
+      "pseudo_angle_p95": 58.9097412109375,
+      "spin_mag_median": 104.87529602050782,
+      "spin_mag_p95": 180.02108459472657
+    },
+    "test": {
+      "rollout_rmse_cm": 15.180022430419921,
+      "rollout_mae_cm": 10.303249740600586,
+      "phys_rmse": 14.229739952087403,
+      "pseudo_mae": 166.6819305419922,
+      "pseudo_angle_mean": 55.225955963134766,
+      "pseudo_angle_median": 49.2132080078125,
+      "pseudo_angle_p95": 115.12016296386719,
+      "spin_mag_median": 101.07299499511718,
+      "spin_mag_p95": 239.83180236816406
+    }
+  },
+  "stage2": {
+    "best_epoch": 1,
+    "val": {
+      "rollout_rmse_cm": 10.413187217712402,
+      "rollout_mae_cm": 7.819767665863037,
+      "phys_rmse": 8.90761432647705,
+      "pseudo_mae": 129.75330200195313,
+      "pseudo_angle_mean": 32.707829284667966,
+      "pseudo_angle_median": 31.33045883178711,
+      "pseudo_angle_p95": 63.938402557373045,
+      "spin_mag_median": 96.10152587890624,
+      "spin_mag_p95": 138.93736572265624
+    },
+    "test": {
+      "rollout_rmse_cm": 15.403246307373047,
+      "rollout_mae_cm": 10.464930725097656,
+      "phys_rmse": 14.25329523086548,
+      "pseudo_mae": 169.81733093261718,
+      "pseudo_angle_mean": 62.64486236572266,
+      "pseudo_angle_median": 50.54283981323242,
+      "pseudo_angle_p95": 120.41495056152344,
+      "spin_mag_median": 99.36458740234374,
+      "spin_mag_p95": 193.07170715332032
+    }
+  },
+  "final_stage": "stage1",
+  "kd": 0.00039827679117703966,
+  "km": 4.86e-06
+}

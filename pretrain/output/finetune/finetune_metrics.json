@@ -1,0 +1,85 @@
+{
+  "best": "stage2",
+  "pretrained": {
+    "val": {
+      "split": "val",
+      "n": 20,
+      "pos_rmse_cm": 2.314131334424019,
+      "phys_rmse": 7.053706169128418,
+      "pseudo_mae": 117.07227325439453,
+      "pseudo_angle_mean": 36.70824432373047,
+      "pseudo_angle_median": 31.783531188964844,
+      "pseudo_angle_p95": 92.45320129394531,
+      "omega_norm_median": 357.3661804199219,
+      "omega_norm_p95": 712.9667358398438
+    },
+    "test": {
+      "split": "test",
+      "n": 20,
+      "pos_rmse_cm": 3.203660249710083,
+      "phys_rmse": 8.74503231048584,
+      "pseudo_mae": 138.67613220214844,
+      "pseudo_angle_mean": 30.3486385345459,
+      "pseudo_angle_median": 26.875864028930664,
+      "pseudo_angle_p95": 60.779937744140625,
+      "omega_norm_median": 396.04632568359375,
+      "omega_norm_p95": 637.5723876953125
+    }
+  },
+  "stage1": {
+    "val": {
+      "split": "val",
+      "n": 20,
+      "pos_rmse_cm": 1.1327384039759636,
+      "phys_rmse": 6.944251537322998,
+      "pseudo_mae": 80.90225982666016,
+      "pseudo_angle_mean": 30.55001449584961,
+      "pseudo_angle_median": 28.680234909057617,
+      "pseudo_angle_p95": 50.42728805541992,
+      "omega_norm_median": 259.9060363769531,
+      "omega_norm_p95": 344.179931640625
+    },
+    "test": {
+      "split": "test",
+      "n": 20,
+      "pos_rmse_cm": 1.9656334072351456,
+      "phys_rmse": 8.709117889404297,
+      "pseudo_mae": 114.09490203857422,
+      "pseudo_angle_mean": 32.024715423583984,
+      "pseudo_angle_median": 27.407676696777344,
+      "pseudo_angle_p95": 62.67191696166992,
+      "omega_norm_median": 255.78347778320312,
+      "omega_norm_p95": 383.1239318847656
+    },
+    "best_epoch": 26
+  },
+  "stage2": {
+    "val": {
+      "split": "val",
+      "n": 20,
+      "pos_rmse_cm": 1.1304385960102081,
+      "phys_rmse": 6.945262432098389,
+      "pseudo_mae": 81.18299102783203,
+      "pseudo_angle_mean": 30.61171531677246,
+      "pseudo_angle_median": 28.99694061279297,
+      "pseudo_angle_p95": 51.10759353637695,
+      "omega_norm_median": 257.94976806640625,
+      "omega_norm_p95": 344.7146301269531
+    },
+    "test": {
+      "split": "test",
+      "n": 20,
+      "pos_rmse_cm": 1.9517671316862106,
+      "phys_rmse": 8.70947265625,
+      "pseudo_mae": 113.70674133300781,
+      "pseudo_angle_mean": 32.141048431396484,
+      "pseudo_angle_median": 27.293062210083008,
+      "pseudo_angle_p95": 62.48164367675781,
+      "omega_norm_median": 253.0550079345703,
+      "omega_norm_p95": 380.39129638671875
+    },
+    "best_epoch": 13
+  },
+  "kd": 0.00039827679117703966,
+  "km": 4.86e-06
+}

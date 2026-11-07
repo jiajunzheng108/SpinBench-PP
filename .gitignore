@@ -1,0 +1,45 @@
+.venv/
+venv/
+env/
+ENV/
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.env
+.env.*
+*.secret
+
+# *.pt
+# *.pth
+# *.ckpt
+# *.onnx
+
+# prep_3d_gt/output/
+# pretrain/output/
+# pretrain/timing/
+
+*.log
+logs/
